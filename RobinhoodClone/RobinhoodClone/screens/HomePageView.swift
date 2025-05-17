@@ -16,7 +16,7 @@ struct HomePageView: View {
     }
     var body: some View {
         TabView {
-            PortfolioPageView()
+            PortfolioScreen()
                 .tabItem {
                     Image(systemName: "chart.line.uptrend.xyaxis")
                 }
